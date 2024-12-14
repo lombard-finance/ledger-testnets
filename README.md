@@ -8,7 +8,7 @@ ledgerd config set client chain-id ledger-testnet-1 --home gastald
 ledgerd config set client keyring-backend test --home gastald
 
 # Distribute initial balance of validators and faucet
-ledgerd genesis add-genesis-account lom1fy4n7w5l60kx3vgcftmpxxth9s5tzqt4swqgvy "102000000ulom,1000ustake" --home gastald
+ledgerd genesis add-genesis-account lom1fy4n7w5l60kx3vgcftmpxxth9s5tzqt4swqgvy "102000000ulom" --home gastald
 ledgerd genesis add-genesis-account lom13dvuxs0ms2gfw60vs8knwq83ctngn3xpe7zche "17446744073709551615ulom" --home gastald
 ledgerd genesis add-genesis-account lom1a4ynu6r0x7chs87729xc7klj3p0mxrc3pz2dmu "102000000ulom,1000ustake" --home gastald
 ledgerd genesis add-genesis-account lom1w5yuz8mn39pkrva3vvpukl3qnm5e3tvpa6wh87 "102000000ulom,1000ustake" --home gastald
