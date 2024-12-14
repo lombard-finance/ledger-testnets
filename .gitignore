@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+gentx/
+*/*_backup.json
+*/*-backup.json
+node_key.json
+priv_validator_key.json
+app.toml
+client.toml
+config.toml
