@@ -557,7 +557,9 @@
       "version": {
         "app": "0"
       },
-      "abci": {}
+      "abci": {
+        "vote_extensions_enable_height": "0"
+      }
     }
   }
 }
