@@ -51,45 +51,31 @@
           "sequence": "0"
         },
         {
-          "@type": "/cosmos.auth.v1beta1.ModuleAccount",
-          "base_account": {
-            "address": "lom10d07y265gmmuvt4z0w9aw880jnsr700jwkzx46",
-            "pub_key": null,
-            "account_number": "5",
-            "sequence": "0"
-          },
-          "name": "gov",
-          "permissions": [
-            "burner",
-            "minter"
-          ]
-        },
-        {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "lom163enmx0d9gyseuagczfnw9kf3hp7zlqzm3c793",
           "pub_key": null,
-          "account_number": "6",
+          "account_number": "5",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "lom1k04ddjpvztzz00h73rcjljr487xzt5x28un0ne",
           "pub_key": null,
-          "account_number": "7",
+          "account_number": "6",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "lom17388ntu5wkhe3jxm8tfnvfmgw6ctr2n9lswnh7",
           "pub_key": null,
-          "account_number": "8",
+          "account_number": "7",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "lom122k4y2jsdzllqrme6ggf75ph6kz07863gnx5va",
           "pub_key": null,
-          "account_number": "9",
+          "account_number": "8",
           "sequence": "0"
         }
       ]
@@ -135,20 +121,15 @@
           ]
         },
         {
-          "address": "lom10d07y265gmmuvt4z0w9aw880jnsr700jwkzx46",
-          "coins": [
-            {
-              "denom": "ustake",
-              "amount": "21000000"
-            }
-          ]
-        },
-        {
           "address": "lom13dvuxs0ms2gfw60vs8knwq83ctngn3xpe7zche",
           "coins": [
             {
               "denom": "ulom",
               "amount": "17446744073709551615"
+            },
+            {
+              "denom": "ustake",
+              "amount": "21000000"
             }
           ]
         },
