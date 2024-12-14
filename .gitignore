@@ -9,3 +9,4 @@ config.toml
 data/
 priv_validator_key.json
 keyring-test/
+addrbook.json
