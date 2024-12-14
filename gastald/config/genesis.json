@@ -108,7 +108,7 @@
           "coins": [
             {
               "denom": "ulom",
-              "amount": "4000000"
+              "amount": "102000000"
             },
             {
               "denom": "ustake",
@@ -130,7 +130,7 @@
           "coins": [
             {
               "denom": "ulom",
-              "amount": "4000000"
+              "amount": "102000000"
             },
             {
               "denom": "ustake",
@@ -161,7 +161,7 @@
           "coins": [
             {
               "denom": "ulom",
-              "amount": "4000000"
+              "amount": "102000000"
             },
             {
               "denom": "ustake",
@@ -192,7 +192,7 @@
           "coins": [
             {
               "denom": "ulom",
-              "amount": "4000000"
+              "amount": "102000000"
             },
             {
               "denom": "ustake",
@@ -213,7 +213,7 @@
       "supply": [
         {
           "denom": "ulom",
-          "amount": "17446744073741551615"
+          "amount": "17446744074133551615"
         },
         {
           "denom": "ustake",
