@@ -7,3 +7,4 @@ node_key.json
 app.toml
 client.toml
 config.toml
+data/
