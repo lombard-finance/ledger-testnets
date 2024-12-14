@@ -8,17 +8,17 @@ ledgerd config set client chain-id ledger-testnet-1 --home gastald
 ledgerd config set client keyring-backend test --home gastald
 
 # Distribute initial balance of validators and faucet
-ledgerd genesis add-genesis-account lom1fy4n7w5l60kx3vgcftmpxxth9s5tzqt4swqgvy "102000000ulom" --home gastald
-ledgerd genesis add-genesis-account lom13dvuxs0ms2gfw60vs8knwq83ctngn3xpe7zche "17446744073709551615ulom,21000000ustake" --home gastald
-ledgerd genesis add-genesis-account lom1a4ynu6r0x7chs87729xc7klj3p0mxrc3pz2dmu "102000000ulom,1000ustake" --home gastald
-ledgerd genesis add-genesis-account lom1w5yuz8mn39pkrva3vvpukl3qnm5e3tvpa6wh87 "102000000ulom,1000ustake" --home gastald
-ledgerd genesis add-genesis-account lom15ddatgjaze3n733lye5ryl8yadst22ylm9503s "102000000ulom,1000ustake" --home gastald
+ledgerd genesis add-genesis-account lom1fy4n7w5l60kx3vgcftmpxxth9s5tzqt4swqgvy "30000000ulom,1000000ustake" --home gastald
+ledgerd genesis add-genesis-account lom13dvuxs0ms2gfw60vs8knwq83ctngn3xpe7zche "17446744073709551615ulom,100000000ustake" --home gastald
+ledgerd genesis add-genesis-account lom1a4ynu6r0x7chs87729xc7klj3p0mxrc3pz2dmu "30000000ulom,1000000ustake" --home gastald
+ledgerd genesis add-genesis-account lom1w5yuz8mn39pkrva3vvpukl3qnm5e3tvpa6wh87 "30000000ulom,1000000ustake" --home gastald
+ledgerd genesis add-genesis-account lom15ddatgjaze3n733lye5ryl8yadst22ylm9503s "30000000ulom,1000000ustake" --home gastald
 
 # Distribute initial balance of proxies
-ledgerd genesis add-genesis-account lom163enmx0d9gyseuagczfnw9kf3hp7zlqzm3c793 "4000000ulom" --home gastald
-ledgerd genesis add-genesis-account lom1k04ddjpvztzz00h73rcjljr487xzt5x28un0ne "4000000ulom" --home gastald
-ledgerd genesis add-genesis-account lom17388ntu5wkhe3jxm8tfnvfmgw6ctr2n9lswnh7 "4000000ulom" --home gastald
-ledgerd genesis add-genesis-account lom122k4y2jsdzllqrme6ggf75ph6kz07863gnx5va "4000000ulom" --home gastald
+ledgerd genesis add-genesis-account lom163enmx0d9gyseuagczfnw9kf3hp7zlqzm3c793 "20000000ulom" --home gastald
+ledgerd genesis add-genesis-account lom1k04ddjpvztzz00h73rcjljr487xzt5x28un0ne "20000000ulom" --home gastald
+ledgerd genesis add-genesis-account lom17388ntu5wkhe3jxm8tfnvfmgw6ctr2n9lswnh7 "20000000ulom" --home gastald
+ledgerd genesis add-genesis-account lom122k4y2jsdzllqrme6ggf75ph6kz07863gnx5va "20000000ulom" --home gastald
 ```
 
 Collect gentx
